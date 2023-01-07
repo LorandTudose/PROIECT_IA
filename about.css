@@ -1,0 +1,200 @@
+html {
+    background: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: white;
+
+}
+
+body{
+    animation: fadeInAnimation ease-out 0.3s ;
+}
+@keyframes slide{
+    0% {
+        transform: translateX(-20%);
+} 
+100% {
+    transform: translateX(0%);}
+}
+@keyframes fadeInAnimation {
+    0% {
+
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+  }
+.trecut_div, .prezent_div, .viitor_div{
+    animation: slide ease-out 0.3s ;
+}  
+
+  #inapoi{
+    display: block;
+    background-color: black;
+    width: 1%;
+    margin-bottom: 1%;
+}
+.left{
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    left: 5px;
+    border: solid white;
+    border-width: 0 5px 5px 0;
+    padding: 8px;
+    transform: rotate(135deg);
+}
+
+#back{
+    color:white;
+    display: inline-block;
+    position: relative;
+    top: -19px;
+    font-weight: 600;
+}
+.trecut_div{
+    display: inline-block;
+    position: absolute;
+    top: 5%;
+    left: 7%;
+    
+}
+
+#trecut{
+   display: inline-block;
+   font-size: 80px;
+   font-weight: 600;
+}
+
+
+#an_tr{
+    position: relative;
+    top: -20px;
+    left: -20px;
+    display: inline-block;
+    font-weight: 600;
+    color: gray;
+    font-size: 13.5px;
+    transform: rotate(90deg);
+}
+
+#trecut_but, #trecut_but2{
+    position: relative;
+    left: -20px;
+    top: -10px;
+    color: #00ccffe0;
+    font-size: 40px;
+    background-color: black;
+    width: fit-content;
+    height: fit-content;
+    font-weight: 600;
+
+}
+
+#rez_trecut{
+    display: inline-block;
+    transition: ease 3s;
+    position: relative;
+    top: -90px;
+    color: gray;
+    font-weight: 500;
+    font-size: 17.5px;
+    word-spacing: 3.2px;
+    padding-right: 50px;
+}
+
+.prezent_div{
+    display: inline-block;
+    position: absolute;
+    top: 30%;
+    left: 7%;
+}
+
+
+#prezent{
+    display: inline-block;
+    font-size: 80px;
+    font-weight: 600;
+}
+#an_pr{
+    display: inline-block;
+    position: relative;
+    transform: rotate(90deg);
+    color: gray;
+    top: -20px;
+    left: -20px;
+    font-size: 13.5px;
+    font-weight: 600;
+}
+
+#prezent_but, #prezent_but2{
+    position: relative;
+    left: -20px;
+    top: -10px;
+    color: #00ccffe0;
+    font-size: 40px;
+    background-color: black;
+    width: fit-content;
+    height: fit-content;
+    font-weight: 600;
+
+}
+#rez_prezent{
+    display: inline-block;
+    transition: ease 3s;
+    position: relative;
+    top: -90px;
+    color: gray;
+    font-weight: 500;
+    font-size: 17.5px;
+    word-spacing: 3.2px;
+    padding-right: 50px;
+}
+
+
+.viitor_div{
+    display: inline-block;
+    position: absolute;
+    top: 55%;
+    left: 7%;
+}
+
+#viitor{
+    display: inline-block;
+    font-size: 80px;
+    font-weight: 600;
+}
+#an_vii{
+    display: inline-block;
+    position: relative;
+    transform: rotate(90deg);
+    color: gray;
+    top: -20px;
+    left: -20px;
+    font-size: 13.5px;
+    font-weight: 600;
+}
+
+#viitor_but, #viitor_but2{
+    position: relative;
+    left: -20px;
+    top: -10px;
+    color: #00ccffe0;
+    font-size: 40px;
+    background-color: black;
+    width: fit-content;
+    height: fit-content;
+    font-weight: 600;
+
+}
+
+#rez_viitor{    display: inline-block;
+    transition: ease 3s;
+    position: relative;
+    top: -90px;
+    color: gray;
+    font-weight: 500;
+    font-size: 17.5px;
+    word-spacing: 3.2px;
+    padding-right: 50px;}

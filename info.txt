@@ -1,0 +1,6 @@
+
+
+
+ABOUT : Prezent/Trecut/Viitor
+
+&nbsp&nbspNascut in data de 23 august 2003 la Spitalul "Cuza Voda" din Iasi si crescut in orasul Siret din judetul Suceava, unde am inceput studiile primare si gimnaziale, perioada in care am dezvoltat o pasiune pentru tehnologie datorita jocurilor video.La inceput nu era nimic mai mult decat hosting/port-forwarding pentru un server de Minecraft pentru mine si inca niste prieteni, mai apoi fiind atras de limbajul Java am incercat mobile-app developing, cu ajutorul Youtube-ului am dezvoltat o interfata ce arata coordonatele giroscopului unui smartphone.In urmatorii ani am fost admis la Colegiul Tehnic "Latcu Voda" Siret pe profil real, stiinte ale naturii, in clasa a 11-a alegand sa dau a treia proba a examenului de Bacalaureat la materia "Informatica" moment in care am descoperit limabjul C++ si am dezvoltat bazele unei gandiri logice.</p>

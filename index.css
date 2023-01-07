@@ -1,0 +1,223 @@
+html {
+  background: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.titlu, .dropdown, #rez, #pozaeu {
+  animation: slide ease-out 0.4s, fadeInAnimation ease-out 1s ;
+
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes slide{
+  0%{
+    transform: translateY(-10%);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+
+.semnatura {
+  width: 15%;
+  display: inline-block;
+  position: fixed;
+  left: 21.5%;
+  top: 2px;
+}
+
+.titlu {
+  color: white;
+  position: absolute;
+  left: 25%;
+  top: 23%;
+}
+
+.salut {
+  position: relative;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: -15%;
+}
+
+.nume {
+  font-size: 90px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.punct {
+  color: #00ccff;
+  font-size: 100px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+#nume_ {
+  position: relative;
+  top: -100px;
+  left: -7px;
+}
+
+.butoane {
+  position: relative;
+  left: 14.7%;
+  top: -25px;
+  width: 10%;
+  height: 50px;
+  margin-right: 40px;
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+  background: black;
+  border: auto;
+  border-color: white;
+}
+
+
+
+#pozaeu {
+  transition: 0.5s ease;
+  width: 1000px;
+  display: inline-block;
+  position: relative;
+  left: 35%;
+  top: 15%;
+  margin-top: -10%;
+
+}
+#pozaeu:hover {
+  width: 1050px;
+  transition: 0.5s ease;
+}
+
+#pozaeu:hover + #fbk {
+  opacity: 1;
+}
+#fbk {
+  transition: 0.3s ease;
+  opacity: 0;
+  width: 200px;
+  display: inline-block;
+  position: absolute;
+  top: 45%;
+  left: 69%;
+  transform: rotate(90deg);
+}
+
+#rez {
+  color: gray;
+  display: inline-block;
+  position: absolute;
+  font-size: 20px;
+  top: 37%;
+  left: 24.8%;
+  width: 23%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#facult:link,#facult:visited {
+  text-decoration: none;
+  color: #00ccffe0;
+  transition: 0.15s ease;
+}
+
+#facult:hover {
+  font-size: 21px;
+}
+
+#linkedin:visited, #linkedid:link{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+
+.dropbtn {
+  background-color: black;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  transition: 0.4s ease;
+  border: none;
+}
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+  top: 54%;
+  left: 25%;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  transition: 0.2s ease;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(254, 254, 254, 0.131);
+  z-index: 1;
+  transition: 0.2s ease;
+
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  color: white;
+  transition: 0.7s;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  transition: 0.2s;
+  border-style: solid;
+  border-color: #00ccffe0;
+  border-width: 1px;
+  transition: 0.7s;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  border-style: solid;
+  border-color: #00ccffe0;
+  border-top: none;
+  border-width: 1px;
+  color: #00ccffe0;
+  width: 200px;
+  transition: 0.5s ease;
+  left: -1px;
+  border-top: none;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: black;
+  border-style: solid;
+  border-color: white;
+    width: 200px;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+    border-width: 1px;
+  font-size: 19px;
+  transition: 0.2s;
+  
+}
