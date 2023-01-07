@@ -1,5 +1,6 @@
 let acasa = document.getElementById("home");
 let despre = document.getElementById("about");
+let secret = document.getElementById("semn");
 
 
 function about(){
@@ -16,3 +17,4 @@ function abilities(){
     window.location.href("index2.html");
     console.log("REDIRECTIONAT - ABILITATI");
 }
+

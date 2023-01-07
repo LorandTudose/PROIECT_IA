@@ -35,7 +35,9 @@ html {
   position: fixed;
   left: 21.5%;
   top: 2px;
+  transition: 0.5s ease;
 }
+
 
 .titlu {
   color: white;
@@ -89,16 +91,16 @@ html {
 
 #pozaeu {
   transition: 0.5s ease;
-  width: 1000px;
+  width: 580px;
   display: inline-block;
-  position: relative;
-  left: 35%;
-  top: 15%;
-  margin-top: -10%;
+  position: absolute;
+  left:50%;
+  top:17%;
+
 
 }
 #pozaeu:hover {
-  width: 1050px;
+  width: 610px;
   transition: 0.5s ease;
 }
 
@@ -106,13 +108,13 @@ html {
   opacity: 1;
 }
 #fbk {
-  transition: 0.3s ease;
+  transition: 0.5s ease;
   opacity: 0;
   width: 200px;
   display: inline-block;
   position: absolute;
   top: 45%;
-  left: 69%;
+  left: 71%;
   transform: rotate(90deg);
 }
 

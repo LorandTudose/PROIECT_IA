@@ -189,7 +189,8 @@ body{
 
 }
 
-#rez_viitor{    display: inline-block;
+#rez_viitor{   
+    display: inline-block;
     transition: ease 3s;
     position: relative;
     top: -90px;
@@ -197,4 +198,6 @@ body{
     font-weight: 500;
     font-size: 17.5px;
     word-spacing: 3.2px;
-    padding-right: 50px;}
+    padding-right: 50px;
+    font-weight: 500;
+}
